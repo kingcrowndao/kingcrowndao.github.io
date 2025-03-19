@@ -1820,12 +1820,12 @@ li.chat-content-list-item.temp {
   }
 }
 .intro-view > section.hero > .content > p {
-  margin-top: 14px;
+  margin-top: 16px;
   text-align: center;
 }
 @container (width <= 520px) {
   .intro-view > section.hero > .content > p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .intro-view > section.hero > .content > a.button {
