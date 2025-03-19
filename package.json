@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "watch": "nodemon --watch dist/pages --exec node generate.js",
     "webpack-dev": "node node_modules/webpack-cli/bin/cli.js --mode development --watch --config webpack.config.dev.ts",
     "webpack-prod": "node node_modules/webpack-cli/bin/cli.js --mode production --config webpack.config.prod.ts"
   },
@@ -10,6 +11,7 @@
     "@gaiaprotocol/ui-preset": "^0.0.2"
   },
   "devDependencies": {
+    "@common-module/static-site-generator": "^0.0.4",
     "@types/node": "^22.7.5",
     "@types/webpack": "^5.28.5",
     "css-loader": "^7.1.2",
