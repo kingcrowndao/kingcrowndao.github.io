@@ -1810,21 +1810,22 @@ li.chat-content-list-item.temp {
   padding: 0 20px;
 }
 .intro-view > section.hero > .content > h1 {
-  font-size: 60px;
+  font-size: 48px;
   text-align: center;
+  font-family: 'Trajan Pro';
 }
 @container (width <= 520px) {
   .intro-view > section.hero > .content > h1 {
-    font-size: 48px;
+    font-size: 32px;
   }
 }
 .intro-view > section.hero > .content > p {
-  margin-top: 16px;
+  margin-top: 14px;
   text-align: center;
 }
 @container (width <= 520px) {
   .intro-view > section.hero > .content > p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .intro-view > section.hero > .content > a.button {
