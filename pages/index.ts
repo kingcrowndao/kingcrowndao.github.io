@@ -4,12 +4,12 @@ import getLogo from "./components/getLogo.js";
 export default function index() {
   return createPage(
     {
-      title: "Virtual Bitcoin",
+      title: "King Crown DAO",
       description:
-        "Virtual Bitcoin is Bitcoin implemented as a EVM smart contract",
+        "킹크라운다오는 Kaia 기반 NFT, KCD Kongz 홀더들이 모인 DAO입니다.",
       jsFiles: ["/bundle.js"],
       cssFiles: ["/bundle.css"],
-      twitterHandle: "@virtual_bitcoin",
+      twitterHandle: "@kingcrowndao",
     },
     el(
       ".layout",
