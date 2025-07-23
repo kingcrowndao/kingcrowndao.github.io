@@ -187,12 +187,12 @@ function createIndexPage() {
               href: 'https://matedevdao.github.io/mate-app/',
               target: '_blank',
               rel: 'noopener noreferrer'
-            }, 'Mate App 채널 참여하기'),
+            }, 'Mate App 채널 참여'),
             h('a.bg-sky-500.text-white.px-6.py-3.rounded.hover:bg-sky-400', {
               href: 'https://x.com/kingcrowndao',
               target: '_blank',
               rel: 'noopener noreferrer'
-            }, '𝕏 팔로우하기')
+            }, '𝕏 팔로우')
           )
         )
       ),
@@ -205,18 +205,6 @@ function createIndexPage() {
           'div',
           `${new Date().getFullYear()} King Crown DAO. Open Source under the MIT License.`
         ),
-        h(
-          'div',
-          h(
-            'a.text-blue-400.hover:text-blue-500',
-            {
-              href: 'https://x.com/kingcrowndao',
-              target: '_blank',
-              rel: 'noopener noreferrer',
-            },
-            'Follow King Crown DAO on 𝕏'
-          )
-        )
       )
     ),
 
