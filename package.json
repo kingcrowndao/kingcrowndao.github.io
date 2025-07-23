@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "build-html": "npx tsx website/build.ts",
+    "watch-html": "nodemon --watch website/pages --ext ts --exec \"yarn build-html\"",
+    "start-webpack": "webpack serve --watch --mode=development",
+    "start": "concurrently -k \"yarn watch-html\" \"yarn start-webpack\"",
+    "dev": "concurrently -k \"yarn watch-html\" \"yarn start-webpack\"",
+    "build": "yarn build-html && webpack --mode=production",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d public"
+  },
+  "dependencies": {
+    "@webtaku/h": "^0.0.15",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@shoelace-style/shoelace": "^2.20.1",
+    "concurrently": "^9.2.0",
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
+    "ignore-emit-webpack-plugin": "^2.0.6",
+    "less": "^4.3.0",
+    "less-loader": "^12.3.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "packageManager": "yarn@1.22.22"
+}
