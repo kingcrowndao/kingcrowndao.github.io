@@ -120,7 +120,7 @@ function createIndexPage() {
 
             h('div.bg-gray-900.p-6.rounded-lg.text-center.shadow-lg',
               h('h3.text-lg.font-bold.text-gray-300.mb-2', '독점 액세스'),
-              h('p.text-base.text-gray-300', 'Mate App 채널 및 커뮤니티 이벤트에 대한 액세스')
+              h('p.text-base.text-gray-300', 'Mate 앱 채널 및 커뮤니티 이벤트에 대한 액세스')
             ),
 
             h('div.bg-gray-900.p-6.rounded-lg.text-center.shadow-lg',
@@ -187,7 +187,7 @@ function createIndexPage() {
               href: 'https://matedevdao.github.io/mate-app/',
               target: '_blank',
               rel: 'noopener noreferrer'
-            }, 'Mate App 채널 참여'),
+            }, 'Mate 앱 채널 참여'),
             h('a.bg-sky-500.text-white.px-6.py-3.rounded.hover:bg-sky-400', {
               href: 'https://x.com/kingcrowndao',
               target: '_blank',
