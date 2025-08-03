@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d public"
   },
   "dependencies": {
-    "@webtaku/h": "^0.0.16",
+    "@webtaku/h": "^0.0.17",
     "lit": "^3.3.1"
   },
   "devDependencies": {
